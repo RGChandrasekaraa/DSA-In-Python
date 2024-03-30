@@ -1,22 +1,4 @@
 def find_number_position(arr, target):
-    """
-    Title: Find Number Position
-
-    Description:
-    Given an array of integers `arr` and an integer `target`, this function finds the position (index) of `target` in 
-    `arr`. If `target` is not found in `arr`, it indicates that the target is not present.
-
-    Args:
-    arr (List[int]): List of integers.
-    target (int): The number to find in the array.
-
-    Returns:
-    int or str: The index of the target in the array, or a message indicating the target is not present.
-
-    Raises:
-    TypeError: If `arr` is not a list or `target` is not an integer.
-    ValueError: If `arr` is empty.
-    """
 
     if not isinstance(arr, list):
         raise TypeError("The 'arr' argument must be a list of integers.")
