@@ -1,3 +1,5 @@
+#FizzBuzz
+
 def fizz_buzz(number):
     """
     Generate FizzBuzz sequence up to the given number.
